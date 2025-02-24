@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+html{
+  scroll-behavior:smooth
+}
+
+#c {
+  height: 100vh;
+  background-image: linear-gradient(#000000, #1B1843);
+}
+
+.subTit{
+  padding-right: 50vw;
+}
+
+#bemvin{
+  padding-left: 3vw;
+  display: block;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.container-imagem{
+  position: absolute; 
+  right: 10vw; 
+  top: 0; 
+  z-index: 1;
+}
+
+#fotoSbr{
+  
+  opacity: 0.3;
+  width: 500px;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 5cqmax;
+}
